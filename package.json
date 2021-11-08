@@ -61,7 +61,7 @@
     "yup": "^0.29.3"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "PORT=80 react-app-rewired start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
